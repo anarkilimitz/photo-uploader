@@ -1,8 +1,8 @@
-# Photo Upload & Optimization Service
+## Photo Upload & Optimization Service
 
-## Микросервис для загрузки изображений с их автоматической оптимизацией и последующим хранением в облаке.
+### Микросервис для загрузки изображений с их автоматической оптимизацией и последующим хранением в облаке.
 
-## Реализованный функционал:
+### Реализованный функционал:
 
 - Загрузка через API: Фронтенд отправляет файл на бэкенд (Express), где происходит проверка, сжатие до формата 300x200px и конвертация в JPEG.
 
@@ -12,9 +12,9 @@
 
 - Безопасность: Ключи доступа вынесены в переменные окружения (.env), настройка CORS для фронтенда.
 
-## Технический стек:
+### Технический стек:
 
-Backend: Node.js, Express, AWS SDK
-Frontend: Vanilla JavaScript (Fetch API, FormData)
-Обработка изображений: Sharp
-Инфраструктура / Облако: Yandex Cloud (S3), AWS Lambda (Serverless)
+- Backend: Node.js, Express, AWS SDK
+- Frontend: Vanilla JavaScript (Fetch API, FormData)
+- Обработка изображений: Sharp
+- Инфраструктура / Облако: Yandex Cloud (S3), AWS Lambda (Serverless)
