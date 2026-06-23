@@ -1,0 +1,9 @@
+{
+  "name": "thumbnailer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "sharp": "^0.32.0",
+    "aws-sdk": "^2.1400.0"
+  }
+}

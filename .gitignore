@@ -1,0 +1,45 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+/node_modules
+/.pnp
+/config.php
+.pnp.js
+public/config.php
+config.php
+/mailer
+dist
+
+# testing
+/coverage
+
+# production
+/build
+public/
+# misc
+.DS_Store
+
+# Environment variables
+.env
+.env.backend
+.env*backend*
+.env.local
+.env*.local
+.env.test
+.env.test.local
+.env.development
+.env*.development
+.env.development.local
+.env.production
+.env*.production
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Кэш и временные файлы
+.cache
+.tmp
+.temp
